@@ -1,3 +1,4 @@
+```mermaid
 flowchart TB
     subgraph "Pulse Protocol Architecture"
         A[Client Application] -->|Pulse Message| B{Pulse Protocol}
@@ -23,9 +24,9 @@ flowchart TB
         SC3[Load Balancing Strategy]
         SC4[Resilience Mechanisms]
     end
+```
 
-
-
+```mermaid
 sequenceDiagram
     participant Client
     participant PulseProtocol
@@ -44,3 +45,4 @@ sequenceDiagram
     Note over PulseProtocol: Adds Trace Context
     Note over PulseProtocol: Implements Load Balancing
     Note over PulseProtocol: Ensures Resilience
+```
